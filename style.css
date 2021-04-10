@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+
+.wrapper{
+    width:100%;
+    height:100vh;
+    background-color: #000;
+    overflow: hidden;
+}
+
+.wrapper .carousel{
+    width:300px;
+    margin:100px auto 0px;
+    overflow: visible;
+}
+
+.carousel img {
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.5));
+}
+
